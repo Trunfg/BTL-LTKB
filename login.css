@@ -1,0 +1,23 @@
+.main{
+    background-image: url(".\\ảnh\\banner01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.bottom{
+    margin-bottom: 20px;
+}
+.bottom-c1{
+    display: inline;
+}
+.bottom-c1 a{
+    text-decoration: none;
+    color: black;
+}
+.tail{
+    height: 200px;
+    background-image: url(".\\ảnh\\bt.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
