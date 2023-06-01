@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đặt vé</title>
-    <link rel="stylesheet" type="text/css" href="dat_ve.css">
+    <title>Đổi mật khẩu</title>
+    <link rel="stylesheet" type="text/css" href="Doi_mat_khau.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-    
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> -->
 </head>
 <body>
     <div class="father" style="background-color: rgb(0, 0, 0);">
@@ -44,88 +44,34 @@
 
             <div class="row" style="height: 50px;"></div>
             
-            <section class="d-flex justify-content-center" style="color: rgb(255, 255, 255); background-color: rgb(31, 31, 31); border-radius: 25px;">
-                <div class="container" style="margin: 50px;">
-                    <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-                        <div class="col-3">
-                            <div class="t"><img src=".\ảnh\2.png" alt="" height="500" width="300"></div>
+            <section class="row text-white" style="background-color: rgb(31, 31, 31); border-radius: 25px;">
+                <div class="col"></div>
+                <div class="col-10" style="background-color: rgb(0, 0, 0); border-radius: 25px; margin: 30px;">
+                    <div style="margin: 30px; padding-bottom: 30px;"><h2 style="text-align: center;">Đổi mật khẩu</h2></div>
+                    <div class="form">
+                        <div class="el1" style="margin: 20px; display: flex;">
+                            <label for="">Mật khẩu hiện tại:</label>
+                            <input type="password" style="border-radius: 10px; display: flex; flex: 1; margin-left: 15px;">
                         </div>
-                        <div class="col-8 tt">
-                            <h4>Vệ Binh Giải Ngân Hà 3</h4>
-                            <div style="height: 10px; border-bottom: 1px solid rgb(161, 161, 161);"></div>
-                            <p>
-                                <b>Đạo diễn: </b>James Gunn <br>
-                                <b>Diễn viên: </b>Chris Pratt, Zoe Saldana, Dave Bautista <br>
-                                <b>Thể loại: </b>Hành Động, Phiêu Lưu, Thần thoại <br>
-                                <b>Khởi chiếu: </b>03/05/2023 <br>
-                                <b>Thời lượng: </b>149 phút <br>
-                                <b>Ngôn ngữ: </b>Tiếng Anh - Phụ đề Tiếng Việt <br>
-                                <b>Rated: </b>T13 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 13 TUỔI TRỞ LÊN (13+)
-                            </p>
+                        <div class="el1" style="margin: 20px; display: flex;">
+                            <label for="">Mật khẩu mới:</label>
+                            <input type="password" style="border-radius: 10px; display: flex; flex: 1; margin-left: 40px;">
+                        </div>
+                        <div class="el1" style="margin: 20px; display: flex;">
+                            <label for="">Nhập lại mật khẩu:</label>
+                            <input type="password" style="border-radius: 10px; display: flex; flex: 1; margin-left: 10px;">
                         </div>
                     </div>
-                    <div class="row d-flex justify-content-center">
-                        <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 80px;">Mua vé</button>
-                        <!-- Button trigger modal -->
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content bg-dark">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Rạp chiếu</h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="btn btn-secondary t" style="margin: 5px;">AEON Long Biên</div>
-                                        <div class="btn btn-secondary t" style="margin: 5px;">Time city</div>
-                                        <div class="btn btn-secondary t" style="margin: 5px;">AEON Hà Đông</div>
-                                    </div>
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Giờ chiếu</h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">8:40</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">11:30</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">14:40</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">17:50</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">21:00</a></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: rgb(40, 40, 40);">Đóng</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <style>
-                            .t:focus,
-                            .t:active {
-                                outline: none;
-                                /* chuyển đổi kiểu dáng của div khi nó được focus hoặc active */
-                                background-color: rgb(247, 26, 140);
-                                color: white;
-                            }
-                      
-                            .t.selected {
-                                background-color: rgb(247, 26, 140);
-                                color: white;
-                            }
-                        </style>
-                        <script>
-                                const buttons = document.querySelectorAll('.t');
-                            
-                                buttons.forEach((button) => {
-                                button.addEventListener('click', () => {
-                                    // xoá class "selected" của button được chọn trước đó
-                                    const selected = document.querySelector('.selected');
-                                    if (selected) {
-                                    selected.classList.remove('selected');
-                                    }
-                                    // thêm class "selected" cho button được click
-                                    button.classList.add('selected');
-                                });
-                                });
-                        </script>
+
+                    <div style="margin: 30px; display: flex; justify-content: right;">
+                        <div style="margin: 10px;"><button class="btn btn-outline-light btn-dark" style="width: 100px;">Xác nhận</button></div>
+                        <div style="margin: 10px;"><button class="btn btn-outline-light btn-dark" style="width: 100px;">Hủy</button></div>
+                        
+                        
                     </div>
                 </div>
+                <div class="col"></div>
+                
             </section>
 
             <div class="row" style="height: 100px;"></div>
@@ -176,7 +122,7 @@
             <div class="row tail"></div>
         </div>
     </div>
-    <script src=".\file1.js"></script>
+    <script src="./file1.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
