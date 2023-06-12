@@ -65,65 +65,7 @@
                         </div>
                     </div>
                     <div class="row d-flex justify-content-center">
-                        <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 80px;">Mua vé</button>
-                        <!-- Button trigger modal -->
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content bg-dark">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Rạp chiếu</h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="btn btn-secondary t" style="margin: 5px;">AEON Long Biên</div>
-                                        <div class="btn btn-secondary t" style="margin: 5px;">Time city</div>
-                                        <div class="btn btn-secondary t" style="margin: 5px;">AEON Hà Đông</div>
-                                    </div>
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Giờ chiếu</h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">8:40</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">11:30</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">14:40</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">17:50</a></div>
-                                        <div class="btn btn-secondary" style="margin: 5px;"><a href=".\ve.html" style="text-decoration: none; color: white;">21:00</a></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: rgb(40, 40, 40);">Đóng</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <style>
-                            .t:focus,
-                            .t:active {
-                                outline: none;
-                                /* chuyển đổi kiểu dáng của div khi nó được focus hoặc active */
-                                background-color: rgb(247, 26, 140);
-                                color: white;
-                            }
-                      
-                            .t.selected {
-                                background-color: rgb(247, 26, 140);
-                                color: white;
-                            }
-                        </style>
-                        <script>
-                                const buttons = document.querySelectorAll('.t');
-                            
-                                buttons.forEach((button) => {
-                                button.addEventListener('click', () => {
-                                    // xoá class "selected" của button được chọn trước đó
-                                    const selected = document.querySelector('.selected');
-                                    if (selected) {
-                                    selected.classList.remove('selected');
-                                    }
-                                    // thêm class "selected" cho button được click
-                                    button.classList.add('selected');
-                                });
-                                });
-                        </script>
+                        <a href="chonVe.html" class="btn btn-secondary" style="width: 100px;">Mua vé</a>
                     </div>
                 </div>
             </section>
